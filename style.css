@@ -1,0 +1,15 @@
+/* Hide the local section */
+.sftp-local-section {
+  display: none !important;
+}
+
+/* Expand the remote section to full width */
+.sftp-remote-section {
+  width: 100% !important;
+  left: 0 !important;
+}
+
+/* Ensure the parent container adjusts */
+.sftp-wrap {
+  display: block;
+}
