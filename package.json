@@ -5,6 +5,8 @@
   "description": "Hide the local half of the SFTP panel; the remote half takes the full width.",
   "main": "main.js",
   "license": "MIT",
+  "author": "ZHAO Xudong",
+  "homepage": "https://github.com/electerm/electerm-widget-hide-sftp-local",
   "scripts": {
     "test": "node --test test/*.test.js"
   },
