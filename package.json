@@ -1,9 +1,8 @@
 {
   "name": "hide-sftp-local",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "Hide the local half of the SFTP panel; the remote half takes the full width.",
-  "main": "main.js",
   "license": "MIT",
   "author": "ZHAO Xudong",
   "homepage": "https://github.com/electerm/electerm-widget-hide-sftp-local",
@@ -14,10 +13,11 @@
     "id": "hide-sftp-local",
     "name": "Hide SFTP Local Pane",
     "description": "Hide the local half of the SFTP panel; the remote half takes the full width.",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "type": "instance",
     "singleInstance": true,
     "persist": true,
+    "styles": ["style.css"],
     "configs": [
       {
         "name": "autoRun",
